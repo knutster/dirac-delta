@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Type-C)(type KiCad)(uri /Users/knut/Source/KiCAD/libraries/Type-C.pretty)(options "")(descr ""))
+  (lib (name wurth)(type KiCad)(uri /Users/knut/Source/KiCAD/libraries/wurth)(options "")(descr ""))
+)
