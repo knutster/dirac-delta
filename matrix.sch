@@ -1,0 +1,148 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 60A2ADAD
+P 6050 3400
+F 0 "MX1" H 6050 3600 60  0000 C CNN
+F 1 "MX-NoLED" H 6050 3550 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5425 3375 60  0001 C CNN
+F 3 "" H 5425 3375 60  0001 C CNN
+	1    6050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 60A2C439
+P 5900 3750
+F 0 "D1" H 6050 3900 50  0000 R CNN
+F 1 "D_Small" H 5900 3900 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5900 3750 50  0001 C CNN
+F 3 "~" V 5900 3750 50  0001 C CNN
+	1    5900 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 3550 5900 3550
+Wire Wire Line
+	5900 3550 5900 3650
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 60A356B9
+P 7000 3400
+F 0 "MX3" H 7000 3600 60  0000 C CNN
+F 1 "MX-NoLED" H 7000 3550 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 6375 3375 60  0001 C CNN
+F 3 "" H 6375 3375 60  0001 C CNN
+	1    7000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 60A356BF
+P 6850 3750
+F 0 "D3" H 7000 3850 50  0000 R CNN
+F 1 "D_Small" H 7050 3950 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6850 3750 50  0001 C CNN
+F 3 "~" V 6850 3750 50  0001 C CNN
+	1    6850 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3550 6850 3550
+Wire Wire Line
+	6850 3550 6850 3650
+$Comp
+L Device:D_Small D2
+U 1 1 60A381C7
+P 5900 4850
+F 0 "D2" H 6050 5000 50  0000 R CNN
+F 1 "D_Small" H 5900 5000 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5900 4850 50  0001 C CNN
+F 3 "~" V 5900 4850 50  0001 C CNN
+	1    5900 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 4650 5900 4650
+Wire Wire Line
+	5900 4650 5900 4750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 60A4334B
+P 7000 4500
+F 0 "MX4" H 7000 4700 60  0000 C CNN
+F 1 "MX-NoLED" H 7000 4650 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 6375 4475 60  0001 C CNN
+F 3 "" H 6375 4475 60  0001 C CNN
+	1    7000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 60A43351
+P 6850 4850
+F 0 "D4" H 7000 5000 50  0000 R CNN
+F 1 "D_Small" H 6850 5000 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6850 4850 50  0001 C CNN
+F 3 "~" V 6850 4850 50  0001 C CNN
+	1    6850 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 4650 6850 4650
+Wire Wire Line
+	6850 4650 6850 4750
+Wire Wire Line
+	6200 3350 6200 4450
+Wire Wire Line
+	7150 3350 7150 4450
+Wire Wire Line
+	6200 3350 6200 3000
+Connection ~ 6200 3350
+Wire Wire Line
+	7150 3350 7150 3000
+Connection ~ 7150 3350
+Wire Wire Line
+	6850 3850 5900 3850
+Wire Wire Line
+	5900 3850 5550 3850
+Connection ~ 5900 3850
+Wire Wire Line
+	6850 4950 5900 4950
+Wire Wire Line
+	5900 4950 5550 4950
+Connection ~ 5900 4950
+Text HLabel 6200 3000 1    50   Input ~ 0
+COL0
+Text HLabel 7150 3000 1    50   Input ~ 0
+COL1
+Text HLabel 5550 3850 0    50   Input ~ 0
+ROW0
+Text HLabel 5550 4950 0    50   Input ~ 0
+ROW1
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 60A381C1
+P 6050 4500
+F 0 "MX2" H 6050 4700 60  0000 C CNN
+F 1 "MX-NoLED" H 6050 4650 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5425 4475 60  0001 C CNN
+F 3 "" H 5425 4475 60  0001 C CNN
+	1    6050 4500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
